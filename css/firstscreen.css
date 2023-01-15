@@ -1,0 +1,98 @@
+.firstscreen {
+background-image: url('../img/background-2.png'); 
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.firstscreen-wrap {
+display: flex;
+justify-content: space-between;
+width: 1400px;
+height: 600px;
+left: 0px;
+top: -1px;
+}
+
+.firstscreen-left {
+
+}
+
+.firstscreen-logo p {
+width: 129px;
+height: 70px;
+left: 110px;
+top: 98px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 70px;
+color: #FFFFFF;
+margin-bottom: 42px;
+}
+.firstscreen-logo span {
+    color: #ec7979;
+    } 
+.main-title{
+width: 544px;
+height: 99px;
+left: 110px;
+top: 210px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+
+color: #FFFFFF;
+}
+
+.line--first {
+margin: top 32px;
+width: 64px;
+height: 0px;
+left: 110px;
+top: 341px;
+border: 1px solid #FFFFFF;
+left: 0px;
+margin-bottom: 39px;
+
+}
+.firstscreen-text {
+color: #FFFFFF;
+left: 0px;
+top: -1px;
+}
+.firstscreen-link {
+
+
+
+}
+.firstscreen-right {
+
+}
+.firstscreen-form {
+
+}
+.firstscreen-link {
+text-align: left;
+}
+.firstscreen-link a {
+ width: 83px;
+height: 20px;
+left: 135px;
+top: 468px;
+}
+.firstscreen-link a:hover {
+    position: relative;
+    font-size: 16px;
+    bottom: 3px;
+    background: rgba(0, 0, 0, 0.55);
+    color: rgba(255, 255, 255, 0.8);
+}
+.firstscreen-link a:active {
+    position: relative;
+    top: 3px;
+}

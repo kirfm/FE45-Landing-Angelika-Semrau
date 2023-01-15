@@ -1,0 +1,54 @@
+.contact {
+background: #E5E5E5;
+padding-top: 12px;
+}
+.contact--title {
+width: 409px;
+height: 42px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+text-transform: uppercase;
+color: #212121;
+margin-bottom: 70px;
+}
+.contact-text {
+width: 363px;
+height: 19px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+color: #86878B;
+text-align: center;
+
+}
+.line {
+    width: 64px;
+    height: 2px;
+     border: 1px solid #E72424;
+}
+
+
+.contact-left {
+
+}
+.contact-form {
+
+}
+
+.contact-right {
+
+}
+.contact-form--right{
+
+
+}
+
