@@ -1,27 +1,32 @@
-
+.awesome {
+  padding: 80px 0;
+}
 .title {
   width: 409px;
   height: 42px;
   margin: auto;
-  
-  font-family: 'Raleway';
+
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
   line-height: 42px;
-  
+
   color: #212121;
 }
-.line {
+title::after {
+  content: "";
   width: 64px;
   height: 2px;
-  border: 1px solid #E72424;
+  border: 1px solid #e72424;
   margin: 0 auto 34px;
+
 }
+
 .awesome-text {
   margin-bottom: 68px;
   text-align: center;
-    }
+}
 
 .awesome-wrap {
   display: flex;
@@ -29,7 +34,6 @@
 }
 .awesome-card {
   width: 350px;
-  
 }
 .awesome-card__img {
   display: flex;
@@ -48,7 +52,6 @@
   color: #333333;
   text-align: center;
   margin-bottom: 16px;
-
 }
 .awesome-card__text {
   font-weight: 400;

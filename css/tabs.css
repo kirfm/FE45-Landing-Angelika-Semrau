@@ -1,0 +1,58 @@
+.tabs {
+background-color: #fff;
+}
+.tabs-wrap {
+display: flex;
+}
+
+.tabs-header {
+display: block;
+
+}
+.tabs-content {
+
+
+}
+.tabs-title {
+width: 408px;
+height: 27px;
+left: 311px;
+top: 126px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+margin-bottom: 58px;
+}
+.tabs-content__text p {
+margin: auto;
+display: block;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+color: #86878B;
+}
+.tabs-content__img {
+
+width: 320px;
+height: 253px;
+left: 963px;
+top: 120px;
+
+}
+.body {
+    background-color: aquamarine;
+
+}

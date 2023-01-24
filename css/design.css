@@ -1,9 +1,10 @@
 .design {
-    background-color:#F5F5F5;
-    background-image: url('../img/background\ 1.png'); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  padding: 60px 0;
+  background-image: url("../img/background\ 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
 }
 .design::before {
   content: "";
@@ -12,75 +13,45 @@
   left: 0px;
   width: 100%;
   height: 100%;
-  display: block;
   background: rgba(0, 0, 0, 0.45);
 }
 
-.design-title {
-    width: 448px;
-    height: 42px;
-    
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    
-    color: #FFFFFF;
-}
-.design-text {
-    width: 779px;
-    height: 19px;
-    margin: auto;
-    
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
-    
-    text-align: center;
-    color: rgba(255, 255, 255, 0.8);
-}
-.design-link {
-position: absolute;
-width: 83px;
-height: 20px;
-left: 658px;
-top: 256px;
-
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 15px;
-line-height: 20px;
-text-align: center;
-
-color: #FFFFFF;
-}
-
-.design-link {
-  text-align: center;
-}
-.design-link a {
-  padding: 10px 20px;
-  border: 1px solid white;
-  text-align: center;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
+#design-title {
   color: #ffffff;
 }
-.design-link a:hover {
-  position: relative;
+#design-title::after {
+  content: "";
+  width: 67px;
+  height: 2px;
+  background-color: #ffffff;
+  display: block;
+  margin: 30px auto 0;
+}
+.design-text {
+  margin-top: 30px;
+}
+.design-text p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
   font-size: 16px;
-  bottom: 3px;
-  background: rgba(0, 0, 0, 0.55);
+  line-height: 19px;
+  text-align: center;
   color: rgba(255, 255, 255, 0.8);
 }
-.design-link a:active {
-  position: relative;
-  top: 3px;
+.design-link {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  display: block;
+  margin: auto;
+  width: 135px;
+  line-height: 42px;
+  text-align: center;
+  margin-top: 40px;
+  transition: 0.2s;
+}
+.design-link:hover {
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #000;
 }
